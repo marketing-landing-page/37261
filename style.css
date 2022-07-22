@@ -1,0 +1,248 @@
+
+
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+section{
+ overflow-x:hidden ;
+
+}
+.font-setting-button{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    background-color: #006496;
+    color: #ffffff;
+    line-height: 48px;
+    text-decoration: none;
+    width: 48px;
+    height: 48px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .5);
+    z-index: 200;
+}
+.font-setting-button:hover{
+    color: #ffffff;
+}
+
+header{
+    background-color: #fff;
+    position: relative;
+    width: 100%;
+    max-width: 1600px;
+    padding: 5px 50px 0px 50px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+header::before{
+    content: "";
+    display: table;
+    table-layout: fixed;
+}
+
+header .topbanner-newstyle {
+    overflow: hidden;
+    background: #006496;
+    border-radius: 0.25rem;
+    padding: 0px 15px;
+    white-space: nowrap;
+}
+header .ic-topareaclason {
+    text-align: left;
+}
+
+header .icon-topareaclas i {
+    font-size: 41px;
+    line-height: 41px;
+    color: #ffffff;
+    padding: 10px 15px 4px 15px;
+}
+
+
+header .contant_lefttextarea_top {
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 18.66px;
+    text-align: right;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+header .navbar-nav .nav-link {
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 5px;
+    color: #00263a !important;
+}
+
+.phone_numerclass{
+    font-size: 24px;
+}
+
+.manage-plan{
+    background-image: url(./assets/images/manage-plans-pic.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-blue-heading{
+    line-height: 1.2em;
+    font-size: 36px;
+    font-weight: 600;
+    color: #006496;
+    margin-bottom: 25px;
+}
+
+.banner-black-text {
+    font-family: 'ProximaNovaMedium';
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.4em;
+    color: #07243d;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.brands{
+    padding: 40px 0px;
+}
+
+.red-slant{
+    height: 10px;
+    border-left: solid 120vw #044160;
+    border-bottom: solid 100px transparent;
+    border-top: solid 0 transparent;
+}
+.bluebannerstrip{
+    color: #fff;
+    background-color: #00263a;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.blue-heading{
+    color: #00263d;
+    letter-spacing: .01em;
+    line-height: 1.3em;
+    margin: 20px 0px;
+}
+
+.btn-second{
+    color: #fff;
+    background-color: #FC4452;
+    border-radius: 0.25rem;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18.66px;
+}
+
+.stay-connected{
+    background-color: #00263A;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin-top: 3em;
+}
+
+.stay-connected, .stay-connected p{
+  color: #fff;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: .01em;
+ line-height: 1.3em;
+}
+.border-y-s{
+    border-top: 7px solid #fff;
+    border-bottom: 7px solid #fff;
+}
+
+.border-y-st{
+    border-top: 7px solid #fff;
+}
+.footer-left-clas {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 35px;
+    text-align: left;
+}
+
+.text-4 {
+    font-size: 27px;
+    font-weight: 700;
+    color: #fff;
+    font-style: normal;
+    letter-spacing: .01em;
+    line-height: 1.3em;
+    margin-top: 0;
+}
+.white-button {
+    background-color: #fff;
+    color: #00263A;
+    border-radius: 0.25rem!important;
+    box-shadow: 0 0 0 aliceblue!important;
+    border: 0;
+    padding: 8px 30px!important;
+    cursor: pointer!important;
+    font-size: 16px!important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nav-link-white{
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-link-white:hover,.nav-link-white:active{
+    color: #ffffff;
+}
+.text-right{
+    text-align: right;
+}
+.hm-sticky-footer{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: auto;
+    width: 100%;
+    align-items: center;
+    background-color: #006496;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 28px;
+    text-align: center;
+    z-index: 300;
+}
+
+.addthis_default_style {
+    margin: 10px 0px;
+    font-size: 20px;
+    overflow: hidden;
+    background: #fff;
+    padding: 10px 5px 0 5px;
+    text-align: center;
+}
+
+.addthis_default_style i.fa-facebook-square{
+    color: blue;
+}
+.addthis_default_style i.fa-youtube-square{
+   color: red;
+}
+.main{
+    margin-bottom: 82px
+}
